@@ -1,0 +1,7 @@
+<h1>Hell Girish</h1>
+<ul>
+<% console.log @entries.models %>
+<%for entry in @entries.models: %>
+<li><%=entry.get('name')%>
+<%end%>
+</ul>
